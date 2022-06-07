@@ -1,0 +1,16 @@
+https://docs.djangoproject.com/en/4.0/howto/
+https://docs.djangoproject.com/en/4.0/ref/class-based-views/
+https://docs.djangoproject.com/it/4.0/
+https://www.djangoproject.com/rss/weblog/
+https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
+https://docs.djangoproject.com/en/4.0/genindex/
+https://docs.djangoproject.com/en/4.0/ref/contrib/gis/
+https://docs.djangoproject.com/en/4.0/releases/security/
+https://docs.djangoproject.com/en/4.0/topics/http/sessions/
+https://docs.djangoproject.com/en/4.0/
+https://www.djangoproject.com/
+https://docs.djangoproject.com/en/4.0/topics/i18n/translation/
+https://docs.djangoproject.com/en/4.0/ref/contrib/sitemaps/
+https://docs.djangoproject.com/en/4.0/contents/
+https://docs.djangoproject.com/en/4.0/intro/tutorial03/
+https://docs.djangoproject.com/en/4.0/topics/serialization/
