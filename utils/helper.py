@@ -10,8 +10,7 @@ def domain(url: str) -> str:
     try:
         res = sub_domain(url)
         raw_output = res.split('.')
-        output = f"{raw_output[-2]}.{raw_output[-1]}"
-        return output
+        return f"{raw_output[-2]}.{raw_output[-1]}"
     except Exception as uwu:
         return ""
 
