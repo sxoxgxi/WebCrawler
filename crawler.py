@@ -5,6 +5,7 @@ from utils.helper import *
 
 class Crawler:
     task_dir = ''
+    #
     base_url = ''
     domain_name = ''
     pending_file = ''
