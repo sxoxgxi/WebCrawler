@@ -17,8 +17,8 @@ class Crawler:
         Crawler.task_dir = task_dir
         Crawler.base_url = base_url
         Crawler.domain_name = domain_name
-        Crawler.pending_file = Crawler.task_dir + '/pending.txt'
-        Crawler.crawled_file = Crawler.task_dir + '/crawled.txt'
+        Crawler.pending_file = f'{Crawler.task_dir}/pending.txt'
+        Crawler.crawled_file = f'{Crawler.task_dir}/crawled.txt'
         self.start()
         self.crawl('Worker 1', Crawler.base_url)
 
@@ -26,7 +26,7 @@ class Crawler:
     def collect_task(url):
         headers = {
             'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1',
-            'Referer': 'http://google.com',
+            'Referer': 'https://google.com',
         }
         try:
             response = requests.get(url, headers=headers)
@@ -50,8 +50,8 @@ class Crawler:
             if url in Crawler.crawled:
                 continue
             # makes crawler stay in the base domain only
-            if Crawler.domain_name != domain(url):
-                continue
+            # if Crawler.domain_name != domain(url):
+            #     continue
             Crawler.pending.add(url)
 
     @staticmethod
